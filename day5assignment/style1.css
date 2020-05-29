@@ -1,0 +1,42 @@
+.a2{
+    float:left;
+    border-color: red;
+    border-style: solid;
+    margin:3px;
+
+}
+.a3{
+    float: right;
+    border-color: red;
+    border-style: solid;
+}
+.a1{
+    font-size: medium;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    padding:2.3%;
+
+}
+ul{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    text-align: center;
+    padding:1%;
+    list-style-type: none;
+    margin-top: 0px;
+    background-color: steelblue;
+    list-style-type: none;
+
+
+}
+ul a{
+    color: black;
+    margin:10px;
+    text-align: center;
+}
+a:hover{
+    color:white;
+    background-color: maroon;
+}

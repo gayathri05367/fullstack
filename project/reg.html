@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <script>
+            function myfun(){
+
+                var user = document.getElementById("txtusername").value;
+                if(/^[A-Z][a-z0-9]{4,8}$/.test(user)){
+                    window.alert("valid ");
+                }
+                else{
+                    window.alert("invalid");
+                    doucment.getElementById("txtusername").focus();
+                }
+                
+
+            }
+        </script>
+    </head>
+    <body>
+        <h2 style="color:cornflowerblue;"align="center">Validation Form</h2>
+        <table align="center">
+            <tr>
+                <td>NAME</td>
+                <td>
+        <input type="text" id="txtusername"></td></tr>
+        <tr>
+            <td>Age</td>
+            <td><input type="number" /></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><select style="width: 100%;">
+                <option>Female</option>
+                <option>Male</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>ADDRESS</td>
+            <td>
+            <textarea rows="8" cols="10" style="width: 100%;"></textarea>  
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center" colspan="2">
+        <button type="button" onclick="myfun()">validate</button></td></tr>
+        </table>
+    </body>
+</html>

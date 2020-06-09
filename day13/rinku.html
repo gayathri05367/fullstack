@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="bootstrap/js/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("#btnHide").click(function(){
+                $("#id").hide();
+            });
+        $("#btnShow").click(function(){
+            $("#id").show()
+        });
+        $("#btnToggle").click(function(){
+            $("#id1").toggle(1000); 
+        });
+    });
+     </script>
+    </head>
+    <body>
+        <h1 id="id">GITAM</h1>
+        <h1 id="id1">University</h1>
+        <button type="button" id="btnHide">Hide</button>
+        <button type="button" id="btnShow">Show</button>
+        <button type="button" id="btnToggle">Togggle</button>
+    </body>
+</html>
